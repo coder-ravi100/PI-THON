@@ -8,5 +8,5 @@ print(s2)
 s3 = c_name.title() #sare first latter upper print hoga
 print(s3)
 
-s4 = c_name.capitalize() #only for one capital
+s4 = c_name.capitalize() #only for First latter capital
 print(s4)
