@@ -5,7 +5,7 @@ for i in range(1, rows+1):
     num = 2*i - 1      # odd number
     for j in range(i): # print i times
         print(num, end=" ")
-    print()            # new line after each row
+    print()            
 
     '''
     how to work program
