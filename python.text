@@ -1,0 +1,198 @@
+09/02/2025
+_____________________________________________________________________________________
+check no is divisible by 2 to -num 
+num = 12
+2 to 11 ---> 12/2 = divisible - not prime
+num = 23
+2 to 22 ---> 23/2 = not divisible
+23 / 5 = not possible
+23 / 22 = not divisible = prime number 
+num = int (intput ("Enter The Number "))
+num % 2 == 0 - even/odd
+odd 
+for i in range (2,num)
+        if num % i == 0
+                print("Not prime)
+        else:
+                print("Is a prime ")
+1-100
+        1 % 1
+        2 % 1
+        3 % 2
+
+1.        3 % 2
+2.        4 % 2
+3.        5 % 2
+5.        
+
+--------------------------------------------
+armstrong number153
+153 = 3
+1 ^ 5, 5 ^ 3, 5 ^ 3 = 1 + 125 + 27 = 153
+
+        condition
+1.find no of digits
+2.no ko digits se
+3.digits power **
+4.sum
+5.condition sum = num 
+pallimdrome
+num = 1234
+rev = 4321
+num = 1221
+rev = 1221 pallimdrome
+
+perfect number 
+--------------------------------------------------------------------
+
+13/09/2025
+_____________________________________________________________________________________
+
+
+next day fibonacci series remainder
+
+0 1 1 2 3 5 8 13 21 
+1 iteration previous = 0
+            next = 1
+            sum = previous
+
+2 iteration
+           previous = next (1)
+           next = sum (1)
+           sum = previous (2)
+
+3 iteration
+           previous = next (1)
+           next = sum (2)
+           sum = previous(3)
+
+4 iteration
+           previous = next (2)
+           next = sum (3)
+           sum = previous (5)
+
+
+lab - task 
+1.swapping value
+
+num1 = 12
+num2 = 22
+
+num2 = 22
+num1 = 12
+
+temp = num1 (temp = 12)
+num1 = num2 (num1 = 22)
+num2 = temp (num2 = 12)
+
+1.0 swapping value withouth third value
+num1 , num2 = num2 , num1
+
+2.start pattern
+
+*
+* *       ->Row
+* * *
+* * * *
+* * * * *
+|
+Col
+
+i = 0 
+for i in range (5):
+        print("*")
+
+3.start pattern
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+4.star pattern
+1
+2 2
+3 3 3
+4 4 4 4
+
+pattern logic 
+
+1. Outer loop (i) → Rows के लिए
+
+Har Bar outer loop new line (row) decide Karta Hai
+
+Example: Agar num = 5
+to outer loop total 5 rows Banayega
+
+for i in range(1, num+1):   # 5 rows
+
+2. Inner loop (j) → Har row mein Kitane elements/characters print Hoge
+
+Outer loop sirf row tay karta hai, Par Uss row Mein Kitan Bar print Karta Hai, Woh inner loop handle Karta Hai
+
+for j in range(i):   # i times print
+    print("*", end=" ")
+
+    
+    -------------------------------------------------------------------------------------
+
+---program ---
+num = 5
+
+for i in range(1, num+1):     # rows
+    for j in range(i):        # columns (how many stars in row)
+        print("*", end=" ")
+    print()
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+1.Count Even And Odd Numbers From Given 🆗
+
+2.Convert A Month Name To A Number OF Days. With If else and Match case🆗
+
+3.Count No Of Even And Odd Digit from given number❌
+
+_____________________________________________________________________________________
+ 
+16/09/2025
+
+1
+3 3
+5 5 5
+7 7 7 7
+9 9 9 9 9
+
+1.control statement
+used to alter flow 
+a.Break --> we want to break loop 
+b.pass --> placeholder/nothing
+ex : jaise koi price discount milne wala hai but kab mil ne wala hai woh pata nahi 
+c.continue --> paerticular condition current iteration skip and continue next iteration
+
+2.String --> squence of characters "Ravi"
+"Ravi"
+"1029378" - string 
+1029378 - not string 
+"Vishvraj"
+'92180937'-->string
+
+function :predefine function
+a.len()
+purpose :
+
+b.lower:
+c.Upper:
+d.title:
+e.capitalise:
+
+lab task
+----------
+accept 5 string user and perform al 4 operation/method
+
+menu driven program 
+armstrong 
+number gussing
