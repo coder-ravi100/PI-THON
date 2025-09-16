@@ -1,5 +1,5 @@
 #CHECK FIBONACCI SERIES (FIRST N TERMS)
-# CHECK FIBONACCI SERIES (FIRST N TERMS)
+
 term = int(input("Enter The Term: "))
 
 n1 = 0
